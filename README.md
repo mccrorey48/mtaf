@@ -124,8 +124,8 @@ following requirements are met:
 
 Inspector can be started with these two Python script lines::
 
-    from mtaf.inspector import start
-    start()
+    from mtaf import start_inspector
+    start_inspector()
 
 Or, if the mtaf package is installed from PyPi (using "pip install mtaf"), the executable script "mtaf-inspector" will be available on the user's path.
 
